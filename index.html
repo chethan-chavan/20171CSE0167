@@ -80,9 +80,9 @@
 
 /* The Close Button */
 .close {
-  position: absolute;
+ /* position: absolute;
   top: 15px;
-  right: 35px;
+  right: 35px; */
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
@@ -110,6 +110,8 @@
     padding: 0px;
     overflow-x: hidden; 
 }
+
+
 
 
    
@@ -217,7 +219,8 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-4 text-center mt-4 mb-0 p-2">
+
+					<div class="col-lg-4 text-center mt-4 mb-0 p-2" style="display: flex; align-items: stretch; justify-content: space-around; padding: 50px 0;">
 						<div data-aos="fade-right" data-aos-duration="1500">
 						<div class="card" style="width: 18rem;">
 							<img class="card-img-top" src="images/florists.jpg" alt="Services">
@@ -231,7 +234,7 @@
 
 
 
-					<div class="col-lg-4 text-center mt-4 mb-0 p-2">
+					<div class="col-lg-4 text-center mt-4 mb-0 p-2" style="display: flex; align-items: stretch; justify-content: space-around; padding: 50px 0;">
 						<div data-aos="fade-up" data-aos-duration="1500">
 						<div class="card" style="width: 18rem;">
 							<img class="card-img-top" src="images/florists.jpg" alt="Services">
@@ -243,7 +246,7 @@
 					</div>
 				</div>
 
-					<div class="col-lg-4 text-center mt-4 mb-0 p-2">
+					<div class="col-lg-4 text-center mt-4 mb-0 p-2" style="display: flex; align-items: stretch; justify-content: space-around; padding: 50px 0;">
 						<div data-aos="fade-left" data-aos-duration="1500">
 						<div class="card" style="width: 18rem;">
 							<img class="card-img-top" src="images/florists.jpg" alt="Services">
@@ -326,8 +329,10 @@
 			</div>
 		</div>	
 				           <!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close" style="margin-top: 4%;margin-right: 18.5%;">&times;</span>
+<div id="myModal" class="modal" >
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
@@ -470,7 +475,7 @@ function allLetter()
 					</div>
 
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" >
 						<div data-aos="fade-right" data-aos-duration="1500">
 						<form name="myform" action="" method="post"  onsubmit="return allLetter()">
 							<label class="font-weight-light p-1">Name:</label>
@@ -490,6 +495,7 @@ function allLetter()
 					<div class="col-md-6">
 						<div data-aos="fade-left" data-aos-duration="1500">
 						<br>
+
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.85096916963!2d77.53406111458028!3d13.171794990724733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae21be4ad63a55%3A0x1008adb771c3d236!2sPresidency%20University!5e0!3m2!1sen!2sin!4v1579097694947!5m2!1sen!2sin" width="460" height="350" frameborder="0" style="border:0px;" allowfullscreen=""></iframe>
 					</div>
 				</div>
