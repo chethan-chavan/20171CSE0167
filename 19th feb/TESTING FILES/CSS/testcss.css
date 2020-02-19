@@ -1,0 +1,23 @@
+#cn
+		 {
+		 	color: green;
+		 	size: 50px;
+		 }
+
+
+p
+ {
+ 	font-size: 120px;
+ }
+
+p:hover
+{
+  color: red;
+  
+}
+
+a
+{
+	text-decoration: none;
+	
+}
